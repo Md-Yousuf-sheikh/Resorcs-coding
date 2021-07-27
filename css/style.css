@@ -1,0 +1,176 @@
+/* 
+=============================
+| | Font  family
+=============================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+/* 
+=============================
+| | Basic Setup
+=============================
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: "Titillium Web", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+
+*,
+*::after,
+*::before{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+  outline: none;
+  outline-offset: 0;
+}
+
+a,
+a:hover{
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--praymery-color);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ==== Veribal deifned ==== */
+
+:root{
+  --praymery-color:red;
+  --text-gray:#ddd;
+  --text-whait:#fff;
+  --main-color: #317EEB;
+  --hover-color: #2764BA;
+  --body-color: #E0E0E0;
+  --box-color: white;
+  --orang-color:orange;
+  --arial-font: Arial, Helvetica, sans-serif ;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body{
+  font-family:var(--arial-font);
+  font-size: 100%; 
+  font-weight: 400;
+
+}
+
+
+/* 
+=============================
+| | Custome Scrollbar
+=============================
+*/
+
+
+::-webkit-scrollbar{
+  width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+  background: var(--main-color);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--orang-color);
+}
+
+
+/* 
+=============================
+| | Custome CSS Desing
+=============================
+*/
+
+h1  {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  color: var(--text-gray);
+}
+
+
+
+
+
+
+
+/* 
+=============================
+| | Header Section
+=============================
+*/
+
+
+
+
+/* 
+=============================
+| |  Section-1
+=============================
+*/
+
+
+
+
+
+
+
+
+/* 
+=============================
+| |  Section-1
+=============================
+*/
+
+
+
+
+
+
+/* 
+=============================
+| |  Section-1
+=============================
+*/
+
+
+
+
+
+/* 
+=============================
+| | footer Section
+=============================
+*/
+
+
+
+
